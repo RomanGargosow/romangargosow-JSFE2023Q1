@@ -1,7 +1,303 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-body {
-  background-color: red;
+ul {
+  list-style: none;
+
+  li {
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  }
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 1280px;
+  background: url(../img/noise_transparent@2x.png),
+    radial-gradient(100% 215.42% at 0% 0%, #5b483a 0%, #262425 100%);
+
+  header {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 90px;
+    .logo {
+      padding-top: 30px;
+      width: 186px;
+
+      h1 {
+        font-family: "Georgia";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 110%;
+        letter-spacing: 0.06em;
+        color: #f1cdb3;
+        margin-bottom: 10px;
+      }
+      p {
+        text-align: center;
+        font-family: "Arial";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 15px;
+        letter-spacing: 0.1em;
+        color: #ffffff;
+      }
+    }
+    nav {
+      padding-top: 46px;
+      ul {
+        width: 443px;
+        display: flex;
+        justify-content: space-between;
+        li {
+          a {
+            font-family: "Arial";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 160%;
+            color: #cdcdcd;
+            &:first-child {
+              color: #fafafa;
+              div {
+                border: #f1cdb3 solid 2px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .Not_only {
+    width: 1200px;
+    height: 728px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    .content {
+      padding-top: 165px;
+      height: 322px;
+
+      h2 {
+        width: 310px;
+        height: 114px;
+        margin-bottom: 41px;
+        font-family: "Georgia";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 44px;
+        line-height: 130%;
+        color: #ffffff;
+      }
+      p {
+        width: 460px;
+        height: 72px;
+        margin-bottom: 41px;
+        font-family: "Arial";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 160%;
+        color: #cdcdcd;
+      }
+      button {
+        width: 207px;
+        height: 52px;
+        background: #f1cdb3;
+        border-radius: 100px;
+        border: 0;
+        // text
+        font-family: "Georgia";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 130%;
+        letter-spacing: 0.06em;
+        color: #292929;
+      }
+    }
+  }
+
+  .About {
+    height: 588px;
+    background-color: white;
+    padding-top: 80px;
+    .container {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      margin: 0 auto;
+      width: 1090px;
+      .content {
+        width: 430px;
+        height: 380px;
+        h2 {
+          width: 370px;
+          font-family: "Georgia";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 35px;
+          line-height: 130%;
+          letter-spacing: 0.06em;
+          color: #545454;
+          margin-bottom: 25px;
+        }
+        p {
+          font-family: "Arial";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 160%;
+          margin-bottom: 25px;
+          color: #4c4c4c;
+          &:last-child {
+            margin-bottom: 0px;
+          }
+        }
+      }
+    }
+  }
+
+  .Our_Friends {
+    background-color: #f6f6f6;
+    height: 877px;
+
+    .container {
+      width: 1185px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      h2 {
+        padding-top: 80px;
+        text-align: center;
+        margin: 0 auto;
+        width: 400px;
+        font-family: "Georgia";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 130%;
+        letter-spacing: 0.06em;
+        color: #545454;
+        margin-bottom: 60px;
+      }
+      .carousel {
+        width: 1184px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 59px;
+
+        .card {
+          display: flex;
+          flex-direction: column;
+
+          margin: 0 auto;
+          width: 270px;
+          height: 435px;
+          background: #fafafa;
+          border-radius: 9px;
+          img {
+            margin-bottom: 30px;
+          }
+          h3 {
+            text-align: center;
+            font-family: "Georgia";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 23px;
+            letter-spacing: 0.06em;
+            color: #545454;
+            margin-bottom: 30px;
+          }
+          button {
+            margin: 0 auto;
+            width: 187px;
+            height: 52px;
+            border: 2px solid #f1cdb3;
+            border-radius: 100px;
+            color: #292929;
+            background-color: white;
+          }
+        }
+      }
+      button {
+        width: 261px;
+        height: 52px;
+        background: #f1cdb3;
+        border-radius: 100px;
+        border: 0;
+        // text
+        font-family: "Georgia";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 130%;
+        letter-spacing: 0.06em;
+        color: #292929;
+      }
+    }
+  }
+
+  .Help {
+    height: 611px;
+    background-color: white;
+    .content {
+      width: 1200px;
+      margin: 0 auto;
+      h2 {
+        padding-top: 80px;
+        margin: 0 auto;
+        margin-bottom: 60px;
+        text-align: center;
+        width: 320px;
+        font-family: "Georgia";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 130%;
+        letter-spacing: 0.06em;
+        color: #545454;
+      }
+      .icons {
+        width: 1026px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 84px;
+
+        .card {
+          margin: 0 auto;
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          img {
+            margin-bottom: 29px;
+          }
+          h3 {
+            font-family: "Georgia";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 115%;
+            text-align: center;
+            letter-spacing: 0.06em;
+            color: #545454;
+          }
+        }
+      }
+    }
+  }
 }
