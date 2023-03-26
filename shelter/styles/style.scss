@@ -300,4 +300,124 @@ ul {
       }
     }
   }
+
+  .In_addition {
+    height: 462px;
+    padding-top: 80px;
+    background: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    .img {
+      padding-top: 12px;
+    }
+    .content {
+      h2 {
+        width: 300px;
+        font-family: "Georgia";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 130%;
+        letter-spacing: 0.06em;
+        color: #545454;
+        margin-bottom: 20px;
+      }
+      h3 {
+        font-family: "Georgia";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 110%;
+        letter-spacing: 0.06em;
+        color: #545454;
+        margin-bottom: 20px;
+      }
+      .number_card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 15px;
+        gap: 14px;
+        width: 349px;
+        height: 43px;
+        background: #f1cdb3;
+        border-radius: 9px;
+        margin-bottom: 20px;
+        // text
+        font-family: "Georgia";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 115%;
+        letter-spacing: 0.06em;
+        color: #545454;
+      }
+      .pp {
+        width: 380px;
+        font-family: "Arial";
+        font-style: italic;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        color: #b2b2b2;
+      }
+    }
+  }
+
+  footer {
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    h2 {
+      width: 280px;
+      font-family: "Georgia";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 35px;
+      line-height: 130%;
+      letter-spacing: 0.06em;
+      color: #ffffff;
+    }
+    p {
+      width: 265px;
+      font-family: "Georgia";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 115%;
+      letter-spacing: 0.06em;
+      color: #f1cdb3;
+    }
+    .block_1 {
+      padding-left: 40px;
+      padding-top: 56px;
+      h2 {
+        margin-bottom: 45px;
+      }
+      .block_little {
+        margin-bottom: 49px;
+      }
+    }
+
+    .block_2 {
+      padding-left: 40px;
+      padding-top: 56px;
+      h2 {
+        margin-bottom: 34px;
+      }
+      .block_little {
+        margin-bottom: 37px;
+      }
+    }
+    .block_little {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+    }
+    .img {
+      padding-top: 40px;
+    }
+  }
 }
