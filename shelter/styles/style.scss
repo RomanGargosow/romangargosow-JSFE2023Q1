@@ -3,7 +3,9 @@
   margin: 0;
   padding: 0;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 ul {
   list-style: none;
 
@@ -247,6 +249,9 @@ ul {
         line-height: 130%;
         letter-spacing: 0.06em;
         color: #292929;
+        &:hover {
+          cursor: pointer;
+        }
       }
     }
   }
@@ -272,17 +277,18 @@ ul {
         color: #545454;
       }
       .icons {
-        width: 1026px;
-        margin: 0 auto;
+        width: 1200px;
+        height: 281px;
         display: flex;
         flex-wrap: wrap;
-        gap: 84px;
 
         .card {
           margin: 0 auto;
           display: flex;
           align-items: center;
           flex-direction: column;
+          justify-content: center;
+          margin-bottom: 60px;
           img {
             margin-bottom: 29px;
           }
@@ -296,6 +302,41 @@ ul {
             letter-spacing: 0.06em;
             color: #545454;
           }
+        }
+        .card-1 {
+          padding-left: 79px;
+          margin-right: 108px;
+        }
+        .card-2 {
+          margin-right: 108px;
+        }
+        .card-3 {
+          margin-right: 108px;
+        }
+        .card-4 {
+          margin-right: 108px;
+        }
+        .card-5 {
+          margin-right: 87px;
+        }
+        .card-6 {
+          padding-left: 67px;
+          margin-right: 16px;
+        }
+        .card-7 {
+          margin-right: 11px;
+          img {
+            margin-bottom: 27px;
+          }
+        }
+        .card-8 {
+          margin-right: 17px;
+          img {
+            margin-bottom: 29px;
+          }
+        }
+        .card-9 {
+          margin-right: 169px;
         }
       }
     }
@@ -368,7 +409,7 @@ ul {
   footer {
     height: 350px;
     display: flex;
-    justify-content: space-around;
+
     h2 {
       width: 280px;
       font-family: "Georgia";
@@ -393,31 +434,179 @@ ul {
       padding-left: 40px;
       padding-top: 56px;
       h2 {
-        margin-bottom: 45px;
+        margin-bottom: 42px;
       }
       .block_little {
-        margin-bottom: 49px;
+        margin-bottom: 43px;
       }
     }
 
     .block_2 {
-      padding-left: 40px;
+      padding-left: 113px;
       padding-top: 56px;
       h2 {
-        margin-bottom: 34px;
+        margin-bottom: 32px;
       }
       .block_little {
-        margin-bottom: 37px;
+        margin-bottom: 33px;
       }
     }
     .block_little {
       display: flex;
       justify-content: center;
       align-items: center;
-      gap: 10px;
+      gap: 20px;
     }
     .img {
+      padding-left: 155px;
       padding-top: 40px;
+    }
+  }
+
+  // White
+  .wrapper-white {
+    background: #ffffff;
+    .header-white {
+      margin-bottom: 0px;
+      height: 120px;
+      .white-logo {
+        h1 {
+          font-family: "Georgia";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 32px;
+          line-height: 110%;
+          letter-spacing: 0.06em;
+          color: #545454;
+          margin-bottom: 10px;
+        }
+        p {
+          text-align: center;
+          font-family: "Arial";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 13px;
+          line-height: 15px;
+          letter-spacing: 0.1em;
+          color: #292929;
+        }
+      }
+
+      .nav-white {
+        ul {
+          li {
+            a {
+              font-family: "Arial";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 15px;
+              line-height: 160%;
+              color: #545454;
+            }
+            .a-our-pets {
+              color: #292929;
+              div {
+                border: #f1cdb3 solid 2px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .Our_pets {
+      background: #f6f6f6;
+      height: 1342px;
+      .content {
+        margin: 0 auto;
+        width: 1200px;
+        .title {
+          h1 {
+            padding-top: 80px;
+            margin: 0 auto;
+            width: 400px;
+            font-family: "Georgia";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 35px;
+            line-height: 130%;
+            text-align: center;
+            letter-spacing: 0.06em;
+            color: #545454;
+          }
+        }
+
+        .carousel-2 {
+          width: 1184px;
+          display: flex;
+          justify-content: space-between;
+          padding-top: 60px;
+          margin-bottom: 28px;
+          gap: 40px;
+
+          .card {
+            display: flex;
+            flex-direction: column;
+
+            margin: 0 auto;
+            width: 270px;
+            height: 435px;
+            background: #fafafa;
+            border-radius: 9px;
+            img {
+              margin-bottom: 30px;
+            }
+            h3 {
+              text-align: center;
+              font-family: "Georgia";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 20px;
+              line-height: 23px;
+              letter-spacing: 0.06em;
+              color: #545454;
+              margin-bottom: 30px;
+            }
+            button {
+              margin: 0 auto;
+              width: 187px;
+              height: 52px;
+              border: 2px solid #f1cdb3;
+              border-radius: 100px;
+              color: #292929;
+              background-color: white;
+              // TEXT
+              font-family: "Georgia";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 17px;
+              line-height: 130%;
+              letter-spacing: 0.06em;
+              color: #292929;
+            }
+          }
+        }
+
+        .carousel-3 {
+          padding-top: 0px;
+          margin-bottom: 60px;
+        }
+
+        .navigation-buttons {
+          ul {
+            display: flex;
+            justify-content: space-between;
+            margin: 0 auto;
+            width: 340px;
+          }
+        }
+      }
+    }
+
+    footer {
+      background: url(../img/noise_transparent@2x.png),
+        radial-gradient(110.67% 538.64% at 5.73% 50%, #513d2f 0%, #1a1a1c 100%),
+        #211f20;
     }
   }
 }
