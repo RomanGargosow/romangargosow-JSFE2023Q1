@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 ul {
   list-style: none;
 }
@@ -232,6 +236,9 @@ ul li a {
   line-height: 130%;
   letter-spacing: 0.06em;
   color: #292929;
+}
+.wrapper .Our_Friends .container button:hover {
+  cursor: pointer;
 }
 .wrapper .Help {
   height: 611px;
@@ -465,12 +472,6 @@ ul li a {
   font-size: 15px;
   line-height: 160%;
   color: #545454;
-}
-.wrapper .wrapper-white .header-white .nav-white ul li afirst-child {
-  color: #545454;
-}
-.wrapper .wrapper-white .header-white .nav-white ul li afirst-child div {
-  border: none;
 }
 .wrapper .wrapper-white .header-white .nav-white ul li .a-our-pets {
   color: #292929;

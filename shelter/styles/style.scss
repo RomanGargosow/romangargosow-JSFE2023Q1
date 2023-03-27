@@ -3,7 +3,9 @@
   margin: 0;
   padding: 0;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 ul {
   list-style: none;
 
@@ -247,6 +249,9 @@ ul {
         line-height: 130%;
         letter-spacing: 0.06em;
         color: #292929;
+        &:hover {
+          cursor: pointer;
+        }
       }
     }
   }
@@ -497,12 +502,6 @@ ul {
               font-size: 15px;
               line-height: 160%;
               color: #545454;
-              &first-child {
-                color: #545454;
-                div {
-                  border: none;
-                }
-              }
             }
             .a-our-pets {
               color: #292929;

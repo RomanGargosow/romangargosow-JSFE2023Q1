@@ -21,10 +21,10 @@
       </div>
       <nav>
         <ul>
-          <li><a href="#">About the shelter <div></div></a></li>
-          <li><a href="#">Our pets</a></li>
-          <li><a href="#">Help the shelter</a></li>
-          <li><a href="#">Contacts</a></li>
+          <li><a href="#about">About the shelter <div></div></a></li>
+          <li><a href="./pets.html#our-pets">Our pets</a></li>
+          <li><a href="#help">Help the shelter</a></li>
+          <li><a href="#contacts">Contacts</a></li>
         </ul>
       </nav>
     </header>
@@ -41,7 +41,7 @@
         <img src="./img/start-screen-puppy.png" alt="puppy">
       </div>
 
-      <div class="About">
+      <div class="About" id="about">
         <div class="container">
           <div class="img"><img src="./img/about-pets.png" alt="Dog and Cat"></div>
           <div class="content">
@@ -59,7 +59,7 @@
         </div>
 
       </div>
-      <div class="Our_Friends">
+      <div class="Our_Friends" id="our-friends">
         <div class="container">
           <h2>Our friends who <br> are looking for a house</h2>
           <div class="carousel">
@@ -85,12 +85,13 @@
 
             <img src="./img/carusel/button_arrow_2.svg" alt="arrow right">
           </div>
-
-          <button class="standart">Get to know the rest</button>
+          <form action="pets.html" target="_self">
+            <button class="standart">Get to know the rest </button>
+          </form>
         </div>
       </div>
 
-      <div class="Help">
+      <div class="Help" id="help">
         <div class="content">
           <h2>How you can help
             our shelter</h2>
@@ -170,7 +171,7 @@
       </div>
     </main>
 
-    <footer>
+    <footer id="contacts">
 
       <div class="block_1">
         <h2>For questions and suggestions</h2>
