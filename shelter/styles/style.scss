@@ -19,7 +19,7 @@ ul {
 
 .wrapper {
   margin: 0 auto;
-  width: 1280px;
+
   background: url(../img/noise_transparent@2x.png),
     radial-gradient(100% 215.42% at 0% 0%, #5b483a 0%, #262425 100%);
 
@@ -407,8 +407,9 @@ ul {
   }
 
   footer {
-    height: 350px;
     display: flex;
+    justify-content: center;
+    margin: 0 auto;
 
     h2 {
       width: 280px;
@@ -431,7 +432,6 @@ ul {
       color: #f1cdb3;
     }
     .block_1 {
-      padding-left: 40px;
       padding-top: 56px;
       h2 {
         margin-bottom: 42px;
