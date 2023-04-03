@@ -139,6 +139,7 @@ $color-primary: #f1cdb3;
     justify-content: space-between;
     align-items: center;
     padding: 30px 20px 60px 20px;
+    margin: 0 auto;
 
     @media (min-width: 768px) {
       padding-left: 30px;
@@ -147,6 +148,9 @@ $color-primary: #f1cdb3;
     @media (min-width: 1280px) {
       padding-left: 40px;
       padding-right: 40px;
+    }
+    @media (min-width: 1281px) {
+      width: 1280px;
     }
 
     .logo {
@@ -228,6 +232,9 @@ $color-primary: #f1cdb3;
           .general-not-only {
             text-align: left;
           }
+        } /* media */
+        @media (min-width: 1281px) {
+          width: 1280px;
         }
 
         h1 {
@@ -379,6 +386,9 @@ $color-primary: #f1cdb3;
       .container {
         margin: 0 auto;
         text-align: center;
+        @media (min-width: 1281px) {
+          width: 1280px;
+        }
 
         h2 {
           @extend %h3-mobile;
@@ -572,6 +582,11 @@ $color-primary: #f1cdb3;
             }
           } /* media */
 
+          @media (min-width: 1281px) {
+            width: 1280px;
+            margin: 0 auto;
+          }
+
           .icon-card {
             img {
               width: 50px;
@@ -709,6 +724,10 @@ $color-primary: #f1cdb3;
   .container {
     @media (min-width: 1280px) {
       display: flex;
+    }
+    @media (min-width: 1281px) {
+      width: 1280px;
+      margin: 0 auto;
     }
   }
 

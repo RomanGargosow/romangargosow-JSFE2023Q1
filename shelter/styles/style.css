@@ -84,6 +84,7 @@ ul li a {
   justify-content: space-between;
   align-items: center;
   padding: 30px 20px 60px 20px;
+  margin: 0 auto;
   /* logo */
 }
 @media (min-width: 768px) {
@@ -96,6 +97,11 @@ ul li a {
   .wrapper .header {
     padding-left: 40px;
     padding-right: 40px;
+  }
+}
+@media (min-width: 1281px) {
+  .wrapper .header {
+    width: 1280px;
   }
 }
 .wrapper .header .logo .cozy {
@@ -175,6 +181,7 @@ ul li a {
   width: 93.75%;
   margin: 0 auto;
   text-align: center;
+  /* media */
   /* h1 */
   /* p */
 }
@@ -186,6 +193,11 @@ ul li a {
 @media (min-width: 1280px) {
   .wrapper .main .not_only .container .general-not-only {
     text-align: left;
+  }
+}
+@media (min-width: 1281px) {
+  .wrapper .main .not_only .container {
+    width: 1280px;
   }
 }
 .wrapper .main .not_only .container h1 {
@@ -367,6 +379,11 @@ ul li a {
   /* h2 */
   /* card */
   /* card-navigation */
+}
+@media (min-width: 1281px) {
+  .wrapper .main .our_friends .container {
+    width: 1280px;
+  }
 }
 .wrapper .main .our_friends .container h2 {
   color: #545454;
@@ -578,6 +595,12 @@ ul li a {
     margin-left: -53px;
   }
 }
+@media (min-width: 1281px) {
+  .wrapper .main .help .container .icons {
+    width: 1280px;
+    margin: 0 auto;
+  }
+}
 .wrapper .main .help .container .icons .icon-card img {
   width: 50px;
   height: 50px;
@@ -758,6 +781,12 @@ ul li a {
 @media (min-width: 1280px) {
   .footer .container {
     display: flex;
+  }
+}
+@media (min-width: 1281px) {
+  .footer .container {
+    width: 1280px;
+    margin: 0 auto;
   }
 }
 @media (min-width: 768px) {
