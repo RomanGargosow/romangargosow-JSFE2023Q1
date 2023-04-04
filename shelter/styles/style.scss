@@ -1082,6 +1082,16 @@ $color-primary: #f1cdb3;
           margin-bottom: 11px;
           .card {
             margin-bottom: 30px;
+            &:hover {
+              box-shadow: 0px 0px 57px -9px rgba(66, 68, 90, 1);
+              transition: 0.5s ease-out;
+            } /* hover */
+            button {
+              &:hover {
+                background: #f8b761;
+                transition: 0.8s ease-out;
+              }
+            }
           }
 
           .visable-on-mobile-white {
@@ -1119,6 +1129,7 @@ $color-primary: #f1cdb3;
         margin: 0 auto;
         width: 340px;
         padding-bottom: 98px;
+
         @media (min-width: 320px) {
           padding-bottom: 38px;
         }
@@ -1136,17 +1147,8 @@ $color-primary: #f1cdb3;
           justify-content: space-between;
         }
       } /* card-white-nav */
-      ///
-      ///
     } /* container */
   } /* our_friends-white  */
-  ///
-  ///
-  ///
-  ///
-  ///
-  ///
-  ///
 } /* wrapper-white */
 
 .footer-white {

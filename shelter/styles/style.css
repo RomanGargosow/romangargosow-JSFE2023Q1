@@ -1183,6 +1183,15 @@ button {
   }
   .wrapper-white .our_friends-white .container .cards .card {
     margin-bottom: 30px;
+    /* hover */
+  }
+  .wrapper-white .our_friends-white .container .cards .card:hover {
+    box-shadow: 0px 0px 57px -9px rgb(66, 68, 90);
+    transition: 0.5s ease-out;
+  }
+  .wrapper-white .our_friends-white .container .cards .card button:hover {
+    background: #f8b761;
+    transition: 0.8s ease-out;
   }
   .wrapper-white .our_friends-white .container .cards .visable-on-mobile-white {
     display: block;
