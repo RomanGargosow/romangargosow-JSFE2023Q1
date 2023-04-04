@@ -18,6 +18,9 @@ ul {
     }
   }
 }
+button {
+  cursor: pointer;
+}
 
 //VARIABLE
 $color-light-s: #fafafa;
@@ -182,7 +185,7 @@ $color-primary: #f1cdb3;
         .line {
           width: 30px;
           margin-bottom: 8px;
-          border: 1px solid #f1cdb3;
+          border: 1px solid $color-primary;
           &:last-child {
             margin-bottom: 0px;
           } /* last-child */
@@ -212,6 +215,20 @@ $color-primary: #f1cdb3;
           .link-about {
             color: $color-light-s;
           }
+          .nav-interactive {
+            &:hover {
+              color: $color-light-s;
+              font-size: 16px;
+              transition: 0.5s ease-out;
+            }
+          } /* nav-interactive */
+          .nav-interactive-white {
+            &:hover {
+              color: $color-dark-m;
+              font-size: 16px;
+              transition: 0.5s ease-out;
+            }
+          } /* nav-interactive-white */
         } /* li */
       } /* nav-menu */
     }

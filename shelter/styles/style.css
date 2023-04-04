@@ -20,6 +20,10 @@ ul li a {
   text-decoration: none;
 }
 
+button {
+  cursor: pointer;
+}
+
 .footer-white h3, .footer-white h2, .wrapper-white .our_friends .container h2, .footer h3, .footer h2, .wrapper .main .donation .container h2, .wrapper .main .help .container h2, .wrapper .main .our_friends .container h2, .wrapper .main .about .container h2, .wrapper .main .not_only .container h1 {
   font-family: "Georgia";
   font-style: normal;
@@ -158,6 +162,10 @@ ul li a {
     display: none;
   }
 }
+.wrapper .header .nav .nav-menu li {
+  /* nav-interactive */
+  /* nav-interactive-white */
+}
 .wrapper .header .nav .nav-menu li a {
   color: #cdcdcd;
 }
@@ -166,6 +174,16 @@ ul li a {
 }
 .wrapper .header .nav .nav-menu li .link-about {
   color: #fafafa;
+}
+.wrapper .header .nav .nav-menu li .nav-interactive:hover {
+  color: #fafafa;
+  font-size: 16px;
+  transition: 0.5s ease-out;
+}
+.wrapper .header .nav .nav-menu li .nav-interactive-white:hover {
+  color: #b2b2b2;
+  font-size: 16px;
+  transition: 0.5s ease-out;
 }
 .wrapper .header-white {
   background: #ffffff;
