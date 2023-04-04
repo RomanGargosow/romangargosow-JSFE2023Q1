@@ -303,6 +303,10 @@ button {
   font-size: 17px;
   line-height: 130%;
 }
+.wrapper .main .not_only button:hover {
+  background: #f8b761;
+  transition: 0.8s ease-out;
+}
 @media (min-width: 1280px) {
   .wrapper .main .not_only button {
     margin: 0;
@@ -488,7 +492,12 @@ button {
   border-radius: 9px;
   margin-bottom: 19px;
   background: #fafafa;
+  cursor: pointer;
   /* button */
+}
+.wrapper .main .our_friends .container .card:hover {
+  box-shadow: 0px 0px 57px -9px rgb(66, 68, 90);
+  transition: 0.5s ease-out;
 }
 .wrapper .main .our_friends .container .card img {
   margin-bottom: 25px;
@@ -512,6 +521,10 @@ button {
   line-height: 130%;
   letter-spacing: 0.06em;
   color: #292929;
+}
+.wrapper .main .our_friends .container .card button:hover {
+  background: #f1cdb3;
+  transition: 0.5s ease-out;
 }
 .wrapper .main .our_friends .container .card-mobile-nav {
   margin-bottom: 38px;
@@ -544,6 +557,10 @@ button {
   .wrapper .main .our_friends .container .button-get {
     margin-bottom: 100px;
   }
+}
+.wrapper .main .our_friends .container .button-get:hover {
+  background: #f8b761;
+  transition: 0.8s ease-out;
 }
 .wrapper .main .help {
   background: #ffffff;
@@ -753,6 +770,10 @@ button {
   border: none;
   color: #545454;
   /* media */
+}
+.wrapper .main .donation .container button:hover {
+  background: #f8b761;
+  transition: 0.8s ease-out;
 }
 @media (min-width: 768px) {
   .wrapper .main .donation .container button {
